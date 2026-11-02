@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+.container {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1, h2 {
+    color: #27364b;
+}
+
+input, textarea, select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 18px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+button, .button {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #3867d6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover, .button:hover {
+    background: #274da8;
+}
+
+.task {
+    padding: 15px;
+    margin: 15px 0;
+    background: #f8f9fc;
+    border-left: 4px solid #3867d6;
+    border-radius: 6px;
+}
+
+.task a {
+    color: #3867d6;
+    margin-right: 12px;
+}
+.task {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border-left: 5px solid #3867d6;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.task h3 {
+    margin-top: 0;
+    color: #27364b;
+}
+
+.task p {
+    color: #666;
+    line-height: 1.5;
+}
+
+.task button {
+    background: #e74c3c;
+}
+
+.task button:hover {
+    background: #c0392b;
+}
+.status {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status.todo {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status.in_progress {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.status.completed {
+    background: #d4edda;
+    color: #155724;
+}
